@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 28 Jun 2021 23:16:59 +0200
+Source: longnow
+Architecture: source
+Version: 0.7~impish-1
+Distribution: impish
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.7~impish-1) impish; urgency=medium
+ .
+   * Better error messages
+Checksums-Sha1:
+ e1cd19ebaf3b8356e41936c7e518bd581bb51ffe 1611 longnow_0.7~impish-1.dsc
+ f50658ff91d11b9c7fdc7b84619b4de3a6483fc7 1916 longnow_0.7~impish.orig.tar.xz
+ cafa21f7c66c41d04ccd4b51d76a76e23d37f500 2048 longnow_0.7~impish-1.debian.tar.xz
+ c8049cc3fb9bff758c7833026f72f75b80d9fdcb 6160 longnow_0.7~impish-1_source.buildinfo
+Checksums-Sha256:
+ 188323a732c2f804ffd0a84bc6be28e97e3b157769096c1940cd71e1f65c9d9e 1611 longnow_0.7~impish-1.dsc
+ 10f969c3bd845aadd2a792b90cdf80319a2a8d2781b668721ecafa91025c9aa3 1916 longnow_0.7~impish.orig.tar.xz
+ 501bc48476dc1ff2dc37f9b589b6072c1e038fd6d809499c917c645e08ea3b77 2048 longnow_0.7~impish-1.debian.tar.xz
+ 51bf56cb366a6e4c52ea002700f95f5b6ecf85243e8b302911b47647fabfe164 6160 longnow_0.7~impish-1_source.buildinfo
+Files:
+ 1658a8aa5bb7534c297a03d12f6b577d 1611 utils optional longnow_0.7~impish-1.dsc
+ 833f375080a36f5c113c894de38c9688 1916 utils optional longnow_0.7~impish.orig.tar.xz
+ 194c1d545c3ea6e54834691a0c4b6aec 2048 utils optional longnow_0.7~impish-1.debian.tar.xz
+ 2c982e94f81caa12ddb3ec95c6a7bb9c 6160 utils optional longnow_0.7~impish-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDaPE8ZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kVygDC/9Tw4irNYll7dW9h7Mff061
+MHCxKUmp9MuFuY+W149BnZ5GyA543m4jmXeRHe03RTpvsIh0rMXNjgNKDJzT0F2p
+8JC8cXAlF1EHZxyZQNgNRf5ciSY1UARcemO2AJP2Nmpmj1qcEnFE36JkUtcuCTpY
+pBRXUCjQa5Q/6HqmfdOXJxYfmS/I1IoNwIeQWV0Nvk8qFAAIOn6iej3wrpXVNzp4
+pC8EDIFAPveajG1XaugRW0IfD9QZFn9lMnKU58+9qu2fg02wekgrxpiWbG+Oc5te
+79X0u2+/whn/xA+jNewbzruI2araUX0+T9rUwDbg85FLMOcQh+HS+6tjCHvpY7Rv
+e2eHmketRZ6Q8ifAgDRC3SENNe56564verGg39R+S6EvTMbTwCrfSdVeTmDtI7bZ
+J+0zgyM3eqilj5jghaVNND9C+9Mu0jvEcHWSScs9qCe6f4fFhZejXAAkD8aJg1HC
+lQp2mGumo0kPAiNwtJkj+4yKByip7GETDUpJr8VAmOo=
+=omvJ
+-----END PGP SIGNATURE-----

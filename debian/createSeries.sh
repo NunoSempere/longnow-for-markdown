@@ -3,9 +3,15 @@ stemFolder="$(pwd)/$1"
 stemFolderName="$1"
 seriesFolder="$(pwd)/$1~series"
 seriesNames=("focal" "groovy" "hirsute" "impish")
+gitFolder="/home/nuno/Documents/core/software/fresh/bash/sid/longnowformd_package/longnow-git/"
+
+rm -r "$stemFolder"
+mkdir "$stemFolder"
 
 rm -r "$seriesFolder"
 mkdir "$seriesFolder"
+
+cp  "$gitFolder/longnow" "$stemFolder/longnow"
 
 for seriesName in "${seriesNames[@]}"; do
 
@@ -27,6 +33,9 @@ for seriesName in "${seriesNames[@]}"; do
   cd debian
   # Replace "unstable" for the series name ("bionic", "focal",...)
   sed -i "s|unstable|$seriesName|g" changelog
+
+  # Meaningful update message
+  sed -i 's|Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>|Better error messages|g' changelog
   
   # Edit the control file; change "unknown" section to "utils" (or some other section)
   sed -i 's|Section: unknown|Section: utils|g' control
@@ -43,8 +52,10 @@ for seriesName in "${seriesNames[@]}"; do
   wait
   cd ..
   
-  dput ppa:nunosempere/longnowformd longnow_0.5~$seriesName-1_source.changes
+  dput ppa:nunosempere/longnowformd longnow_0.7~$seriesName-1_source.changes
   wait
 done
 
-## How to use: ./createSeries.sh longnow-0.5
+## How to use: ./createSeries.sh longnow-0.7
+
+cp "$seriesFolder" "gitFolder/debian/$1~series"

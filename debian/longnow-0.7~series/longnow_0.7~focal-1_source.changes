@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 28 Jun 2021 23:16:40 +0200
+Source: longnow
+Architecture: source
+Version: 0.7~focal-1
+Distribution: focal
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.7~focal-1) focal; urgency=medium
+ .
+   * Better error messages
+Checksums-Sha1:
+ 255b008624e27e1732776c65f5b6e8b125275d46 1604 longnow_0.7~focal-1.dsc
+ 46a122da278534d21fd0ac0a6035648f77d15eec 1920 longnow_0.7~focal.orig.tar.xz
+ af157080765bf1f155ce74a12d4b69c8f567ff05 2048 longnow_0.7~focal-1.debian.tar.xz
+ 9a265614fe7d0aa207f04b10becbf6fac881875d 6156 longnow_0.7~focal-1_source.buildinfo
+Checksums-Sha256:
+ 03109dba5cc1358df6e0e80dec79ef9daff183358430e8f24de6411f53fc62f5 1604 longnow_0.7~focal-1.dsc
+ f60a555d54d2b0942bb74bc4fb8b19c011a0bdd09c0ba6eefe0e488139ed2c75 1920 longnow_0.7~focal.orig.tar.xz
+ 108d24db6381830f69e79d4facb2a694da5df653a8e64c8788dfd0f924195169 2048 longnow_0.7~focal-1.debian.tar.xz
+ 24ffca0694507006308e2afad23419a7cbab9e914bd9588f824c61b4a0ed3737 6156 longnow_0.7~focal-1_source.buildinfo
+Files:
+ e21293d57410da1afa717a585d3e46da 1604 utils optional longnow_0.7~focal-1.dsc
+ 3b4c374783069cd3e261aff163060f60 1920 utils optional longnow_0.7~focal.orig.tar.xz
+ 352baaadd6fde0b048238671244f9694 2048 utils optional longnow_0.7~focal-1.debian.tar.xz
+ b9a3fa64ae326e4adbd8dfe3fd611912 6156 utils optional longnow_0.7~focal-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDaPD8ZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV8iyC/9AetjBvP4NCPegbq5+y7Ck
+66pP6oBa/DZDEuugko/RxGPaQ/lnJUg3An/fIjDdUpWlej9nWhBZ/WVwQZVesbQ6
+grMsJfP1U6WfRGZH4SnsmtGqjGODNti1BdLoydh1hVliYptAzenIVpZuHGAdXtQr
+urEd49RhW5EVCOPLsaloCdLNBOtIrjiDA/xMU8+EKEUT1FZSnf2QTDv5YQ0/zePb
+9eGr1pJ3anAOkjGNA2G8R+5ZQ0EEFmIXXW0H+NLnOx9VF+Sli0g3aOVFBXDEbYdw
+nah5Zd1vKZ+1EV/Yi2NV2hzClmtoZ/HslKueZIcebD4UcSOYt4xeunFqedKUT3ac
+BU2f/M7Yd3NqfPWYmlnTfzi5jAZrFPioX17PIYvmfKqondTXrD7Bm9acwcSo67Qf
+xMORb1HwpZVFXChXb5AD3F86fMeAUqnGm/sf3qAS5wc505bVCCzMsujGitZeR89B
+3heVl0hf2Kn2VfaeotM9vNOdtrPks157u1MWyP/grY0=
+=dqyE
+-----END PGP SIGNATURE-----
