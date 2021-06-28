@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function getMdLinks(){ # Use: Takes a markdown file file.md, extracts all links, finds the unique ones and saves them to file.md.links
   echo ""
   echo "Extracting links..."
@@ -91,3 +93,4 @@ function longnow(){
   fi 
 }
 
+longnow "$1" ## don't copy this line into your .bashrc file
