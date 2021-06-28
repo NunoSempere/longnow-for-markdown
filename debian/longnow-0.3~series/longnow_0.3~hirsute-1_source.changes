@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 28 Jun 2021 16:32:02 +0200
+Source: longnow
+Architecture: source
+Version: 0.3~hirsute-1
+Distribution: hirsute
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.3~hirsute-1) hirsute; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ f452f2080926cc87ef05cf0b691143b6fd02fb96 1618 longnow_0.3~hirsute-1.dsc
+ d933958eceb9060ef1454d8dd24738a0d00cfca0 1384 longnow_0.3~hirsute.orig.tar.xz
+ 7cde94738204813958f5acc63b5d71c0fd5a0aac 2084 longnow_0.3~hirsute-1.debian.tar.xz
+ aba6a487ee198c742dd2c433dd10fcaa2ea2eb00 6164 longnow_0.3~hirsute-1_source.buildinfo
+Checksums-Sha256:
+ 1a4cf929b8082c20bce5701c470aa64868f9746109cf262466719f0cc7d14fb9 1618 longnow_0.3~hirsute-1.dsc
+ 149a3e0864e75c6db6f4b3f1e9bbf7cc3f946baade82b89d69ea0eab2bb66f29 1384 longnow_0.3~hirsute.orig.tar.xz
+ 4c9b61e612a3d6b42d9524b8defd03b86a997f77aa154e3e8c2c332f2c52575e 2084 longnow_0.3~hirsute-1.debian.tar.xz
+ c0d41a4e1ce7202f554040c4c0dffec01a69cd927dc9197b4803c640d74b753f 6164 longnow_0.3~hirsute-1_source.buildinfo
+Files:
+ cdbf0ddb2ed3fc2fbfb8e83dc41e7cfc 1618 utils optional longnow_0.3~hirsute-1.dsc
+ b71985275976bebbf821f431588f4785 1384 utils optional longnow_0.3~hirsute.orig.tar.xz
+ 949581c736911a9ac759c71d35db564c 2084 utils optional longnow_0.3~hirsute-1.debian.tar.xz
+ 8c707726174d36cc4a4d406a0591ad9c 6164 utils optional longnow_0.3~hirsute-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDZ3YcZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV9JPC/9uHSvAfQpYI0XmWOXTSgM4
+rOGZ//ZP6F68ZCAhpsNT9AzY77oXLyp9K5WhDw6RHGRdFxHyG24334qqXSjLr/lk
+fhLzQQ07IaL0m+pMofD//KicyZps5D4grnDPoJuErPLA5zGw+tIfmJz5Y/VdMGN7
+5EV1IppxzoEDlbbgIZyLazbrIU4QQGK+2Qfm7z2UHR4+KBhdOHPGjGxYW9O1/g09
+v8oU7To1ceIc8adSmqvib2VNLdS2BEDq8rcCHUT54t/WiygBtcZcsWZTDH4TQKNH
+97eXTa9QZdovBMCtAAflIeq4umjtILtsSW/rrQgC+SDnflSm0nJjAiGiir/7aXDc
+Esqy4hYzbwFRia1Doqxeg5774HGn0XVAXLICLTC0QZfkxTWTPUIM3kemN5+CsrOq
+JqTm1kGfBsSWedSon/XnAN8H7Ed0QnF2iZh/cpgi9fVkZtIhxR9GyMNCplAkm/wx
+ZKSJP3QhJImQ4f4ypL/QmVuMFcI3mWOwqkSca+t4/7Y=
+=C60p
+-----END PGP SIGNATURE-----

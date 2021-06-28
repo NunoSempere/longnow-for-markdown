@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 28 Jun 2021 16:29:33 +0200
+Source: longnow
+Architecture: source
+Version: 0.3~focal-1
+Distribution: focal
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.3~focal-1) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ b4a34f842083e48641901468b11a90b87f2a738e 1604 longnow_0.3~focal-1.dsc
+ 75b5daeff4c99848f47228412b43b52f49ac65e0 1380 longnow_0.3~focal.orig.tar.xz
+ 6aae54c73f14fced9c76b5fcbc1d14349171fd4c 2080 longnow_0.3~focal-1.debian.tar.xz
+ e85a81e5c09bf2dda64634194e8d1aea527185fc 6156 longnow_0.3~focal-1_source.buildinfo
+Checksums-Sha256:
+ 3c37e3e21a275fcc01b113f5c5c932eee48ec440e55a7634f2564304e0812baa 1604 longnow_0.3~focal-1.dsc
+ 47c3de1a3ec3fa20be6e16391f58dddb8443a7c13c36d8f0920b7863fccfacff 1380 longnow_0.3~focal.orig.tar.xz
+ e5433efee4e241e164389aece6a98f4a3f6113a341f0e833d6ad75a9acfe52b7 2080 longnow_0.3~focal-1.debian.tar.xz
+ a96103bd8850797f3ad7782fde196d5c76cd89a69d2072f83c1c15e638e06f9e 6156 longnow_0.3~focal-1_source.buildinfo
+Files:
+ 800ac7ebaaa0720ffbeed285cc6d2685 1604 utils optional longnow_0.3~focal-1.dsc
+ 7eb89879a6d206865bc33c35ce6fc93c 1380 utils optional longnow_0.3~focal.orig.tar.xz
+ a4558411db4a0130d1e73f602f90c3b7 2080 utils optional longnow_0.3~focal-1.debian.tar.xz
+ 36d8ec4520714b4bc7b29897fd5bfa7b 6156 utils optional longnow_0.3~focal-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDZ3OgZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kVyQdDAC1UB1z3urXDm2kye2lx8oM
+ojtf+NEDf76HUJ9JriEzk6jtjS1MYf3YzjaL/kab/Zs2dKHskHw+i88CXdSiM3XF
+g8/ldXHezp/RFTuzcvL0kFjQcRHXZZf8V9Dn99hvFEsE3s2dQv7bD1WoT5FfXzg9
+cYpgkoAPyardYg+dRVsihkk9WuC3xO+4qODYm4rooOp1qHEugl5Oi8iiLc4zTTSP
+vba0kFW/xwFwGPreH1zAW4KpZIduYF7nlAr2U4va7CykXp6qQocaIEg44cFdDjd2
+KhF3yVfW3F4EiOLW1BlIj9KfE0zHeCxLK57CdkJAuhYm8FATvklm47kKDFSpDpg/
+nyqsbwxqoRDmwX4orgfMJbAoLt62mgRmjMTkJKPbqpoRLexc3R37LQebL4kPQ30I
+n9VGD2TUSUZL6Sv99sQmRISzGOOtdWq+Iz7eLN/D5XWXwixr62gLoe5vXnfYJ9fs
+C7/cdOtYg13kqMQyodMrx1DIwbxRwbMxN9Q0nEYVMzE=
+=CHUG
+-----END PGP SIGNATURE-----

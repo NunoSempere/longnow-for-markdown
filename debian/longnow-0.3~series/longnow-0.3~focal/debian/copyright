@@ -1,9 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: longnowformd
+Upstream-Name: longnow
 Upstream-Contact: <preferred name and address to reach the upstream project>
-Source: https://github.com/NunoSempere/longNowForMd
+Source: <url://example.com>
 
 Files: *
+Copyright: <years> <put author's name and email here>
+           <years> <likewise for another author>
+License: MIT
+
+Files: debian/*
 Copyright: 2021 Nuno Sempere <nuno.semperelh@gmail.com>
 License: MIT
 
