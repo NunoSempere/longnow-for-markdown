@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 28 Jun 2021 17:36:35 +0200
+Source: longnow
+Architecture: source
+Version: 0.4~groovy-1
+Distribution: groovy
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.4~groovy-1) groovy; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 784ed1829deac188dffcf45e4d329c1a601238e9 1611 longnow_0.4~groovy-1.dsc
+ a614dda48384d2b24bae696561e0e387d003234b 1384 longnow_0.4~groovy.orig.tar.xz
+ b8fafd8a3da397057bb2dbc8946f1246cf1335c6 2076 longnow_0.4~groovy-1.debian.tar.xz
+ 2eedbd8ddb89753ef90e3f9c3ae7c583c099f02f 6160 longnow_0.4~groovy-1_source.buildinfo
+Checksums-Sha256:
+ 589ff5545636f832507490a353aa50f5f563dac1b2ff133167ba7fe288382159 1611 longnow_0.4~groovy-1.dsc
+ acf5c386c03e8bc207c9722e8c90d6d4254838566367c3ad2f5b473088bebc78 1384 longnow_0.4~groovy.orig.tar.xz
+ 4dc8a413f5b379d9ddd34e11f6b56db96bafc262daf0a305c8504cb3dc09bd6d 2076 longnow_0.4~groovy-1.debian.tar.xz
+ 14aa97d78916e3a40b53d23e3db967f9c67c24b173c30a40b9893c582c9f094b 6160 longnow_0.4~groovy-1_source.buildinfo
+Files:
+ 755b32a4140b78b484bb937e138cafb4 1611 utils optional longnow_0.4~groovy-1.dsc
+ ab684b1478f674da86cfc809b37417a3 1384 utils optional longnow_0.4~groovy.orig.tar.xz
+ c5dbdc570205c0e6e93007c984523171 2076 utils optional longnow_0.4~groovy-1.debian.tar.xz
+ 704039d7e0067641cf1c621b6108d7d3 6160 utils optional longnow_0.4~groovy-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDZ7KYZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV9RrC/457jVFZT1GxWcIqxkmA7cD
+FTL+jk3nYt/R4cKXEBEaKbYdYDlcX0yicjtas1Bt4HtpdB9udaH3IziRldkxXrdp
+Kpmo8DuXDD0G11SCFrg2TVKPKSKpDN4LDvq7+IHvMWO1hAfStlh18WwymRwimXwi
+PkjrdwbCJJKbId2XFyEtU8lP+ou3DgSF8zOc7QXxi7BTQ5cpO74DhxRUXSK2vElR
+e9aK6JBWpU3wyAPz1HmjO3W8SsYJitBCzYf+2C0S+aYaVqeac/2VCCwOAunlIO30
+5XkP43MXM1VHrhG1HIBh2U4cgpQzazbra2bYLEtmVW0YD7sPzh32yZFRAjUr2UiX
+CQOUbN3ffOtzvy7yx2HBMCjkz4bHiv1ibQSRKMiOcPchxBZ2ilTWX//3RLSuEap7
+Vf1wSpc15cK8eoMxAw1y0YWhh59ROq90EmDmLgAsjhdPlUoH7PJsxfoOFgd/Vbcz
+vlCih0xYEEShBIUr3F7Pw+WoBqbjtC+efc4M/2AwfRk=
+=l2SD
+-----END PGP SIGNATURE-----

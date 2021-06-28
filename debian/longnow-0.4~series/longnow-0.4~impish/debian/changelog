@@ -1,0 +1,5 @@
+longnow (0.4~impish-1) impish; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Nuno Sempere <nuno.semperelh@gmail.com>  Mon, 28 Jun 2021 17:38:12 +0200

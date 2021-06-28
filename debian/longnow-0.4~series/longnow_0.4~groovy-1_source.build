@@ -1,0 +1,33 @@
+ dpkg-buildpackage -us -uc -ui -S
+dpkg-buildpackage: info: source package longnow
+dpkg-buildpackage: info: source version 0.4~groovy-1
+dpkg-buildpackage: info: source distribution groovy
+dpkg-buildpackage: info: source changed by Nuno Sempere <nuno.semperelh@gmail.com>
+ dpkg-source --before-build .
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building longnow using existing ./longnow_0.4~groovy.orig.tar.xz
+dpkg-source: info: building longnow in longnow_0.4~groovy-1.debian.tar.xz
+dpkg-source: info: building longnow in longnow_0.4~groovy-1.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../longnow_0.4~groovy-1_source.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload (original source is included)
+Now running lintian longnow_0.4~groovy-1_source.changes ...
+E: longnow source: debian-rules-is-dh_make-template
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc longnow_0.4~groovy-1.dsc Nuno Sempere <nuno.semperelh@gmail.com>
+
+ fixup_buildinfo longnow_0.4~groovy-1.dsc longnow_0.4~groovy-1_source.buildinfo
+ signfile buildinfo longnow_0.4~groovy-1_source.buildinfo Nuno Sempere <nuno.semperelh@gmail.com>
+
+ fixup_changes dsc longnow_0.4~groovy-1.dsc longnow_0.4~groovy-1_source.changes
+ fixup_changes buildinfo longnow_0.4~groovy-1_source.buildinfo longnow_0.4~groovy-1_source.changes
+ signfile changes longnow_0.4~groovy-1_source.changes Nuno Sempere <nuno.semperelh@gmail.com>
+
+Successfully signed dsc, buildinfo, changes files
