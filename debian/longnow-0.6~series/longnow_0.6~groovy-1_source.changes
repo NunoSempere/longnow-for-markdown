@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 28 Jun 2021 22:34:13 +0200
+Source: longnow
+Architecture: source
+Version: 0.6~groovy-1
+Distribution: groovy
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.6~groovy-1) groovy; urgency=medium
+ .
+   * Better error messages
+Checksums-Sha1:
+ 1ee6e59015ae6f38e17e3c9e8b99738f0cc4874b 1611 longnow_0.6~groovy-1.dsc
+ e4c27ef0fc38255a778c1d0529489df995371745 1900 longnow_0.6~groovy.orig.tar.xz
+ 143ae0a10187169e83bdafb8ac96915e735f7640 2048 longnow_0.6~groovy-1.debian.tar.xz
+ 569838ad4c0007482f616b73bd8e8a57185b4957 6160 longnow_0.6~groovy-1_source.buildinfo
+Checksums-Sha256:
+ 8641deeb38f4b31a2d6e9d749bd16fd722a9d0aabe488236f17628b3a8069a72 1611 longnow_0.6~groovy-1.dsc
+ 5c14c9deb6b70a9b8c5547cdac21aba817946e891f4819f982235d23796fa55c 1900 longnow_0.6~groovy.orig.tar.xz
+ 103ced3b3e5141c470d7878bfe0fd57384cdf6a3a88f62c6144d5d0dab3a7c8e 2048 longnow_0.6~groovy-1.debian.tar.xz
+ 7f14b9eecd5260861cc673f2e89e3955b16649023856d6d3d6c1932474f5fac3 6160 longnow_0.6~groovy-1_source.buildinfo
+Files:
+ 6e0967c8b625d9ebcf103b3aae056e3c 1611 utils optional longnow_0.6~groovy-1.dsc
+ 41547a222c098c8c75dc9d4b1f66e6f3 1900 utils optional longnow_0.6~groovy.orig.tar.xz
+ a02e93fbb442c7296430cdf9bb943401 2048 utils optional longnow_0.6~groovy-1.debian.tar.xz
+ 12628dfd67fe854f8b2a3bc243519857 6160 utils optional longnow_0.6~groovy-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDaMkkZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV/z/C/99iJRMdcVQK7tZCkarRvsH
+zKbBokWXN2XYDlo5ShxwFDTJAIhIiaBwPL5lkhs9WEGlHWBAeL5T7rLhON42V2T8
+gXNQtlKCJQT3OcviiUBt/7sgpeOGacWMBDvq5ClamIi9a/njowZgN2/psNEA7+BU
+vt7hbxdEbHfFUlb786JwCg2eirA5icn7lkHIiErQaYkJM7PcHfkZVlYEV1Rr8Hnj
++jIDo4y099n3uq9g7vnUqQuqPK6PwVKLkZhffkcOjkiAHfkFTzljZzdF/uvUAAXB
+xhowjEaIl6JsDiMqsalQhXi+WEy6D1Kkp0LXiwBodxcUf/sOy7+4hr57GR5LroXb
+1gI4wvv09oHvo3SeqmBwGbXELuK7h52FZbUNPCg5zC57fJOX4LbBtv4CUanuT7l7
+ifOqHi5b9lNUT0HsoSuwLzNBGLomsG3FVpI5VH/cKGqD4fNjkD81DVurVLdJrE/W
+vgweDNGluwKVDr/Ef7K9e8kUE5u7YyoT9SOutgM8uMI=
+=4Sfx
+-----END PGP SIGNATURE-----

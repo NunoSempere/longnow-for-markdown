@@ -1,0 +1,5 @@
+longnow (0.6~hirsute-1) hirsute; urgency=medium
+
+  * Better error messages
+
+ -- Nuno Sempere <nuno.semperelh@gmail.com>  Mon, 28 Jun 2021 22:34:19 +0200

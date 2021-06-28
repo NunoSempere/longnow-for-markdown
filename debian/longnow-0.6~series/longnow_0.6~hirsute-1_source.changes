@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 28 Jun 2021 22:34:19 +0200
+Source: longnow
+Architecture: source
+Version: 0.6~hirsute-1
+Distribution: hirsute
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.6~hirsute-1) hirsute; urgency=medium
+ .
+   * Better error messages
+Checksums-Sha1:
+ 2b2ecfd1d9178ea3b326ff1b2caa44ee26f1cbff 1618 longnow_0.6~hirsute-1.dsc
+ 4c97fff0bc785f21bb003871e77803bdab443794 1896 longnow_0.6~hirsute.orig.tar.xz
+ c07fe1c52cf5ecbb7ba57baf6fd7c7f66d99b969 2048 longnow_0.6~hirsute-1.debian.tar.xz
+ e59de6906e063524ffe92654cc698bd7650054aa 6164 longnow_0.6~hirsute-1_source.buildinfo
+Checksums-Sha256:
+ 5b2c4c80961d9845f6b4d06ff4ba6fdc3e2cd3b096ef83710096b922f6d2c328 1618 longnow_0.6~hirsute-1.dsc
+ 2a43465def0335c7fa751c4b4d501f00007ac8355117016a1fbe439bf9b4f7c7 1896 longnow_0.6~hirsute.orig.tar.xz
+ 335403b603da2cc780791c9c2de1a68987f3ac249743934c48be38a5e39a67d0 2048 longnow_0.6~hirsute-1.debian.tar.xz
+ 3e778275890a5c5133b6db5432c8b4c30fa53c0e9f96c2fe5e457428c009e203 6164 longnow_0.6~hirsute-1_source.buildinfo
+Files:
+ 764a51a7f05511e91d99babdd16a53ac 1618 utils optional longnow_0.6~hirsute-1.dsc
+ 7147bac0bba57b85e6264339c342f104 1896 utils optional longnow_0.6~hirsute.orig.tar.xz
+ 2337d7ad2ebdc921702d193279ba92f8 2048 utils optional longnow_0.6~hirsute-1.debian.tar.xz
+ 652f13cf90fcb09a5abf3a714d3ddc32 6164 utils optional longnow_0.6~hirsute-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDaMk8ZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV/hHDAChWfMqUH8UusK7wylzcYL2
+54C+LxdW8RTfvhHeifhrhYsxG8t6Or++0gmyH1vTdEZXhsc/PM2Gsksxo4cK4it9
+YsvtMUDSsA0mpD+fs3vWpUlVGmVNro2SXZb1i75/H1ycVevBkw4ZUaUSueaQPeny
+Q7nR6tdkG0BWhyvkGMXtml/JkcGGjB6E9f8Hw9xxjHUws7Z8Tj2dU/AoMcYcjvok
+AFtjv1wYzOTU1mqODgTbRF6LD/OQujsRA7e2f2IIfvZgeVNseUndhoEFvivDzSOX
+gBbvZB6HETnaS25FREN3n2bD9jiHvlbsQl46poUPU1hwL/s3HljBsvIwXec0K5iJ
+qhp7OsfaYozJMVGvAGgkWqmjLrUOso47OyUMFY8ki3L7rYp3aVNvMJ9PUvsraSYz
+nz4RrHLQRN3eYQ0Bia/uQgL07/smH+T/rW4Jpx8lgWFw7ABLIGiqkm/m/Qq2P2Wz
+rGSIFGPEOlMoO9HNb0rT5Jv4QkDsLhtXPB6GrFrkXs0=
+=v2Op
+-----END PGP SIGNATURE-----

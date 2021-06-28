@@ -44,7 +44,7 @@ function pushToArchive(){
 			sleep 1m
 		fi
 		echo "Url: $line"
-		urlAlreadyContained=$(grep "$line$" "$archivedLinksFile" | tail -1)
+		urlAlreadyContained=$(grep "$line" "$archivedLinksFile")
 		if [ "$urlAlreadyContained" == "" ]; then
   		archiveURL=$(archivenow --ia $line)
   		if [[ "$archiveURL" == "Error"* ]]; then
@@ -87,7 +87,7 @@ function addArchiveLinksToFile(){
   while IFS= read -r url
 	do
 		wait
-		archivedUrl=$(grep "$url$" "$archivedLinksFile" | tail -1)
+		archivedUrl=$(grep "$url" "$archivedLinksFile" | tail -1)
 		if [ "$archivedUrl" != ""  ]; then
   		## echo "Url: $url"
 		  ## echo "ArchivedUrl: $archivedUrl"

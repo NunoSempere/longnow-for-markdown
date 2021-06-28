@@ -1,0 +1,5 @@
+longnow (0.6~focal-1) focal; urgency=medium
+
+  * Better error messages
+
+ -- Nuno Sempere <nuno.semperelh@gmail.com>  Mon, 28 Jun 2021 22:34:08 +0200

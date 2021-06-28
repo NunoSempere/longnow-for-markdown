@@ -1,0 +1,5 @@
+longnow (0.6~groovy-1) groovy; urgency=medium
+
+  * Better error messages
+
+ -- Nuno Sempere <nuno.semperelh@gmail.com>  Mon, 28 Jun 2021 22:34:13 +0200

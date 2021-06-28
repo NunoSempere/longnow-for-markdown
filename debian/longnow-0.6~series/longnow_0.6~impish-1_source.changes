@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 28 Jun 2021 22:34:24 +0200
+Source: longnow
+Architecture: source
+Version: 0.6~impish-1
+Distribution: impish
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.6~impish-1) impish; urgency=medium
+ .
+   * Better error messages
+Checksums-Sha1:
+ 639a9a961806004053aaf3f135a5f498064b1c2e 1611 longnow_0.6~impish-1.dsc
+ 61c8aeca5fffe55a4104f24c73d6a19b28557199 1900 longnow_0.6~impish.orig.tar.xz
+ 212a0e0eb0cc5d76988d7123a1851ef4c0c67391 2048 longnow_0.6~impish-1.debian.tar.xz
+ 3d61034a5752065a95e61bea56e96bb909a7787e 6160 longnow_0.6~impish-1_source.buildinfo
+Checksums-Sha256:
+ 611645718128812c83d80f2e0e11dedf52ba9ebc556245be5485f5b8665d702b 1611 longnow_0.6~impish-1.dsc
+ 1ec760efdf0e5020daea404105dd1926ce8304c19ea29c4c13aa8772f4a40213 1900 longnow_0.6~impish.orig.tar.xz
+ 380f3158b7d80776802cc8d5cae639eed882783af44ca65b3872a50c0dddea0a 2048 longnow_0.6~impish-1.debian.tar.xz
+ 36f6d0c69df5c9a806ca83c5d3cce61b37d3596435b805db0543cd607e73bade 6160 longnow_0.6~impish-1_source.buildinfo
+Files:
+ c57df880025bbe1f01d71d551c068612 1611 utils optional longnow_0.6~impish-1.dsc
+ d708fd3e3fd5bcb9b435310bbd78a1b5 1900 utils optional longnow_0.6~impish.orig.tar.xz
+ 6336c2bd9293361c69836bac9f8a30f7 2048 utils optional longnow_0.6~impish-1.debian.tar.xz
+ ace8ffcb4a71a5236929eb48530eaecc 6160 utils optional longnow_0.6~impish-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDaMlQZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV6tAC/9uVlj8v0r9dPhbCfaOflKw
+pRwvI276ofT7QqMK56SsrTcSdNntc3EbfKaxNHTjV/x5pBcQ3EYUodfHYNYS2DAr
+gylhBFRA0ZEtP5lWCW7r4fkFtFmx/I3gdSGZP1yqq2Ker6tj/hbeRvkDpBZtIbWO
+DIa2takjtmCyhBCOwWbJNSPuBETn2qGHZsxpgimmt+hOQ0UV6osxXM6XqtsUTqDf
+BKIUhpDGyv4aXpS+eA3b4UyWfQqIm0axLGmwBpPqVbGvfz0CNqe4L0yFgf+fnLMs
+wLqFe24Dyv6/SmKRxXVmq32/QA0clld1GfQSQa13zBchRc+sBVB+wE7x3QOxcF9r
+0ISki45VSuxwD6OyDBw8R4fHxyu2vgbFwfl32l7mVQr2k6uJ4U8I77DrWq9WEk9z
+A6Qcf0aPCTuZwmS1LCKUnekTLIABVkSvgnRLh6Gp7HjjX6+Eka7KQi2B5Mc6pK36
+47H/dsz3Fh8/eb/QANk7szHglIRzGKIn1jcvJR99ZqI=
+=5Mhu
+-----END PGP SIGNATURE-----
