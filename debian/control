@@ -1,0 +1,15 @@
+Source: longnowformd
+Section: utils
+Priority: optional
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/longnowformd
+#Vcs-Git: https://salsa.debian.org/debian/longnowformd.git
+
+Package: longnowformd
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
