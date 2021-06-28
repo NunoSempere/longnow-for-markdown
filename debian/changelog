@@ -1,5 +1,5 @@
-longnowformd (0.1-1) bionic; urgency=medium
+longnowformd (0.2-1) bionic; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * No update; just pushing to the ppa again now that I've updated my keys.
 
- -- Nuno Sempere <nuno.semperelh@gmail.com>  Mon, 28 Jun 2021 12:18:50 +0200
+ -- Nuno Sempere <nuno.semperelh@gmail.com>  Mon, 28 Jun 2021 13:11:48 +0200
