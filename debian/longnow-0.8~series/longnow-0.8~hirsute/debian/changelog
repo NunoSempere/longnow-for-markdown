@@ -1,0 +1,5 @@
+longnow (0.8~hirsute-1) hirsute; urgency=medium
+
+  * Small improvement; numeric comparison and deleting the old links file to allow for manual user intervention
+
+ -- Nuno Sempere <nuno.semperelh@gmail.com>  Tue, 29 Jun 2021 10:59:12 +0200

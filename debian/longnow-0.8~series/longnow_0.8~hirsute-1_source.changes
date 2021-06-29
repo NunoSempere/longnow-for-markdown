@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 29 Jun 2021 10:59:12 +0200
+Source: longnow
+Architecture: source
+Version: 0.8~hirsute-1
+Distribution: hirsute
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.8~hirsute-1) hirsute; urgency=medium
+ .
+   * Small improvement; numeric comparison and deleting the old links file to allow for manual user intervention
+Checksums-Sha1:
+ 5a0869575a41a955c718ff95472f1a1d8b50fee9 1618 longnow_0.8~hirsute-1.dsc
+ a8134f59493c851c17ee373275dd6fb1e18af513 1924 longnow_0.8~hirsute.orig.tar.xz
+ 1f6aba5444ce5ca200a729ec6e03369862f3c6c3 2100 longnow_0.8~hirsute-1.debian.tar.xz
+ dfbbf61dc69583fc2e06b3441f2ca989f990cd08 6164 longnow_0.8~hirsute-1_source.buildinfo
+Checksums-Sha256:
+ 549a7efcd8b31d05a56a7f09106226fffae5b2738facca8a8bba404b2f67df2c 1618 longnow_0.8~hirsute-1.dsc
+ 79fa5b301077493f4dbc881f2ab85b8712d121ffda91c9a5ea6bfa9c699c1fe6 1924 longnow_0.8~hirsute.orig.tar.xz
+ 96b51b3116fe619a3132846c81185a82abb4f27f9024b35d6f3ba041185a02f7 2100 longnow_0.8~hirsute-1.debian.tar.xz
+ 949f3048ff061006a142bb638b49e51764916cc8949fa8547f453cdc7bd74095 6164 longnow_0.8~hirsute-1_source.buildinfo
+Files:
+ 9718488dc92575f742346eaa38a154eb 1618 utils optional longnow_0.8~hirsute-1.dsc
+ a09a4ce12d6c1c52a414321f34137dda 1924 utils optional longnow_0.8~hirsute.orig.tar.xz
+ 3f00f104e02438816586e3a8d2278d89 2100 utils optional longnow_0.8~hirsute-1.debian.tar.xz
+ fd2d4bc3d6a599cf65996c13d4b59913 6164 utils optional longnow_0.8~hirsute-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDa4OQZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV2w3C/47M8Zh3FYr6HurxYO5kfzx
+W8k4rqaS4t97F73/qjEjxprFj+zyqaAxko4NXPP0U4K+V46fIbhyiBuMWfhWEAsQ
+HFRoE4wau6wvJh7m2RrN0BkoKQJ3yU2dMgBRcqeqDks+fTdx43Zka/iW+G847bZl
+iCqrs7cVWx5FrJPXjztY/ELJOuWHxuyUvXre5S5fEKAVzK+AKEK5RxmRiUE1naCQ
+kvUSGocDHSc6pmP6hak17dIZjqjep2w0P2yUrGQ0OPk6uOGrPzh3QOuWvbz46kar
+8ZYPajlAhKUk5L6+xMZPyAi5ICcYIR/we5P/zXQhnwkyoCHb5R7a2BN1Y27KDVv6
+pXQblpI6hC1OBpHH0AsfD5QrhlxvWr9b2ZB+xrTAE3o8Ltd72WHBBwhlk2t1W47k
+RWSl1xypmhM8NkG4u6dnKPAjloFrvfMTjonFKdwE8EaB5TY3q1lj9XzrKX2f72w5
+TbvjTUzxWkCaquWNexLUS1y6emOmW0PPUTdsb757Nws=
+=wPmA
+-----END PGP SIGNATURE-----

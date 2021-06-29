@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 29 Jun 2021 10:59:06 +0200
+Source: longnow
+Architecture: source
+Version: 0.8~groovy-1
+Distribution: groovy
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.8~groovy-1) groovy; urgency=medium
+ .
+   * Small improvement; numeric comparison and deleting the old links file to allow for manual user intervention
+Checksums-Sha1:
+ 8c9f8cf580b835ff762f572ef9282ce82836a088 1611 longnow_0.8~groovy-1.dsc
+ b1fa424fe918a40e266bc98900de0bd40f19ff63 1924 longnow_0.8~groovy.orig.tar.xz
+ 82fe5e59075d02203d1c3e8cb87dad561daab047 2100 longnow_0.8~groovy-1.debian.tar.xz
+ e9f8134d5bd805f97f649139ec87ca1d739fba77 6160 longnow_0.8~groovy-1_source.buildinfo
+Checksums-Sha256:
+ d9b03f23cb060312c2499dae42148328c768c43ef53906bef7e9c9fa3d1c0aaa 1611 longnow_0.8~groovy-1.dsc
+ d4646b076dbba0a3d2bcf19c99662e22e738b240e5a345dd9c03b2337033d73e 1924 longnow_0.8~groovy.orig.tar.xz
+ f6063ba5a8b3f3296a7d58d9f1f0a62bc626b9368fad9d937283ca49fcc71bf9 2100 longnow_0.8~groovy-1.debian.tar.xz
+ fab939dd70f369df98a44918b945093aea00a902d01191e1dbd0e79d0be98615 6160 longnow_0.8~groovy-1_source.buildinfo
+Files:
+ 05a979971fee9f72950a784a7ba557fb 1611 utils optional longnow_0.8~groovy-1.dsc
+ 24d1865182e8c4af7f4fa955f36d2696 1924 utils optional longnow_0.8~groovy.orig.tar.xz
+ 8edcb9275c96a769c711322355969717 2100 utils optional longnow_0.8~groovy-1.debian.tar.xz
+ 0b56378fbf21b288d05d76958ebade9a 6160 utils optional longnow_0.8~groovy-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDa4N4ZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV9YoC/0d+FiODrSbGXuBPzWS0dnR
+63w8p1uTcfdrzVAeG9Ib4diwqoEQgDF+vA84ztuC5QRdzepYUYjFJIZe3Uw2uhRF
+a/r/mwC7jvdZtprraSpMRedmlcDqnU4CUGJEhE2H7kKCPP08SxhoPs0gv9jNqRLf
+ujIxrSzS15JdknA5mUvs1MEAjV2tGdrE76n19oZmFl9HxzxmIKg23iv1H4BHfu5v
+h4pzye6Cs5PEzcWWczDVqxQZ+nrn6G0JZJ7bLEI7n/fqJyKn7YLGqc5Q6GNPU9Fe
+eCNGFzNwxSJvbdaqSfnZQL49IJdfOgleEZ7zVsnUCRMo39QrXZwmCOjvN+DB7Uue
+7NXbFJHpmOc/UYFxMK8yo8XTZIOOQiuAWvYKL/yeOJCNpAjbYm7Nl1whjX31Zn2Z
+drdQxXeYUisVrAhLzlHRTWXhxu5uf0M1q4zRr18inOl2XopdPv2qskY/Mxhc0wBg
+LAf58iy58rvNdiFWSCIBB2eKbM3aptdTxehhHwWwG5Y=
+=zB1O
+-----END PGP SIGNATURE-----

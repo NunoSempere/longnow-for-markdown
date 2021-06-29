@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 29 Jun 2021 10:59:18 +0200
+Source: longnow
+Architecture: source
+Version: 0.8~impish-1
+Distribution: impish
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.8~impish-1) impish; urgency=medium
+ .
+   * Small improvement; numeric comparison and deleting the old links file to allow for manual user intervention
+Checksums-Sha1:
+ d966dbda7186c68f77a67ed1317819e15fdc7834 1611 longnow_0.8~impish-1.dsc
+ abd228e7003ed28985734019ccbc2196cfa2a497 1924 longnow_0.8~impish.orig.tar.xz
+ cb97259fc8ad0f2f82f03c95f53d10336e48735f 2100 longnow_0.8~impish-1.debian.tar.xz
+ 6bc5c0bdd4a42cad7cb2aa6fa35c3e4930c657ee 6160 longnow_0.8~impish-1_source.buildinfo
+Checksums-Sha256:
+ 7294361a1bd0329621e7e6d1b1328a1dfeb0cdabf74bbddd11a78d3b128d5370 1611 longnow_0.8~impish-1.dsc
+ 6ced2083a9e3a730ecef460381d4cff2851ccc449888bdc02780ca9f6c578e78 1924 longnow_0.8~impish.orig.tar.xz
+ 968a1d6ecf0156b3e110b7e7195cce1faff915dac08bdc6e712a40cafc6347b3 2100 longnow_0.8~impish-1.debian.tar.xz
+ 83bda2bebcca5abe80b7240a58380383d1bf3fca68cfe7dcf4da620d3652b68a 6160 longnow_0.8~impish-1_source.buildinfo
+Files:
+ 1cd3145f535246166a1ecdbbc6df6814 1611 utils optional longnow_0.8~impish-1.dsc
+ a339565169423ed4070900afdfd80564 1924 utils optional longnow_0.8~impish.orig.tar.xz
+ 4204570c69fcf6bf9c00b9df8f0d6039 2100 utils optional longnow_0.8~impish-1.debian.tar.xz
+ 8d7a1cc2fc031f766c78a864719322a7 6160 utils optional longnow_0.8~impish-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDa4OoZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV7g4C/0VTWP5mDGo6f4TTICxjaYe
+YfU1ngXbko0yTPExfx/HEdcivsevGATukQ6IFnNIBk/6Lxgb5OEpM4OE4vDRORL2
+FqlFlG5oPaZMbkcK4C5hwxlUZQOmgI4gdZ2VY0gkpOiwKHAd23g0/l2QtzAIWfDA
+NINDB2TdsSlL4kc98aJYRVLNlDRCZT+x/lD0OZ7CX1pM117Uf/sQK0KxzNLsaPcC
+dXc1aKOUZz7tZpAhyC9KxPJpy5rGA2x2vd+gQ03ygy6UWI/HueDAjxEFiu3A+cFE
+FcjGBxp9Bb5pmKEzl+1naHMxALEianzC8lQymAXy/McH6+ZCm0mBaeYf/IsaBoMc
+T7G7hG+XtlHbFdsEiaB22BcGHDjKbmpXFL4rtaOom8skXE7HEgc63zJR1jxx1eT4
+AUCcVw7VydpkHK0zPJwochYk5N50DTVMqtBhgJTIOiL66SGVpWtXiT5BOpPWgFty
+KCX+HWrcZNr87RCXEyqhJsBhhxBQh+4HI7k0X4tf6qM=
+=1xHM
+-----END PGP SIGNATURE-----
