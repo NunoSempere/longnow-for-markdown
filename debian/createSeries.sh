@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# What to update before running:
+# - The error message in line 43
+# - The version number in line 60
+
 stemFolder="$(pwd)/$1"
 stemFolderName="$1"
 seriesFolder="$(pwd)/$1~series"
@@ -35,7 +40,7 @@ for seriesName in "${seriesNames[@]}"; do
   sed -i "s|unstable|$seriesName|g" changelog
 
   # Meaningful update message
-  sed -i 's|Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>|Better error messages|g' changelog
+  sed -i 's|Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>|Small improvement; numeric comparison and deleting the old links file to allow for manual user intervention|g' changelog
   
   # Edit the control file; change "unknown" section to "utils" (or some other section)
   sed -i 's|Section: unknown|Section: utils|g' control
@@ -52,10 +57,11 @@ for seriesName in "${seriesNames[@]}"; do
   wait
   cd ..
   
-  dput ppa:nunosempere/longnowformd longnow_0.7~$seriesName-1_source.changes
+  dput ppa:nunosempere/longnowformd longnow_0.8~$seriesName-1_source.changes
   wait
 done
 
-## How to use: ./createSeries.sh longnow-0.7
+## How to use: ./createSeries.sh longnow-0.8
 
-cp "$seriesFolder" "gitFolder/debian/$1~series"
+cp -r "$stemFolder" "$gitFolder/debian/$stemFolderName"
+cp -r "$seriesFolder" "$gitFolder/debian/$stemFolderName~series"

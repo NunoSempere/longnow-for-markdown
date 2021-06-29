@@ -1,0 +1,8 @@
+If this file contains errors, you can deal with them as follows:
+- Do another pass with $ longnow yourfile.md. If you don't delete yourfile.md.links.archived, past archive links are remembered, and only the links which are not there are sent again
+- Input the offending links manually to https://archive.org/, add the results to the example.md.links.archived file manually, and then do another pass with $ longnow yourfile.md
+
+https://docs.google.com/document/d/1rWfQ3Lja2kYoUm_t9uNqBgEn5nz6KL8fmNP5db8cZRU/edit#
+Error (The Internet Archive): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=120)
+
+## In this case, the webpage was in fact saved in the archive, I just had to search for it manually and add it to example.md.longnow manually.
