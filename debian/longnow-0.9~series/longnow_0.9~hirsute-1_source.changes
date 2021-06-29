@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 29 Jun 2021 18:33:09 +0200
+Source: longnow
+Architecture: source
+Version: 0.9~hirsute-1
+Distribution: hirsute
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.9~hirsute-1) hirsute; urgency=medium
+ .
+   * Minor usability improvements
+Checksums-Sha1:
+ 345dae6747943c1eacaf667bfcc4be0abc8ba4e4 1618 longnow_0.9~hirsute-1.dsc
+ 73c843257e155f651e481bbb724767fb38e4bd6d 2024 longnow_0.9~hirsute.orig.tar.xz
+ fe75a3ca3f34afe4421c142c26d37ba11a413588 2056 longnow_0.9~hirsute-1.debian.tar.xz
+ d439d2fa4d04b92735e280a560eda26bb81df47b 6164 longnow_0.9~hirsute-1_source.buildinfo
+Checksums-Sha256:
+ 74db777fd63426f54b9282e54c9467357a040a3d61448b0f2562330f322ad161 1618 longnow_0.9~hirsute-1.dsc
+ b9197464deb295e6a15245e1ebbf0a272290524f1e61aff1512f4ea28f3b332d 2024 longnow_0.9~hirsute.orig.tar.xz
+ b488f39ee3626e5fee4a3fe91f65df2cef3dd6a2433bb9fda843cacab53a680e 2056 longnow_0.9~hirsute-1.debian.tar.xz
+ 5dd4cec98d906fb10f208aae61fb1c1d6da13efa739e07b30cbf0028063dfa6c 6164 longnow_0.9~hirsute-1_source.buildinfo
+Files:
+ f0ecb7e11ea36969603b45dd61fb3a39 1618 utils optional longnow_0.9~hirsute-1.dsc
+ bd8cba7d0e134af04988b3d4adf825ae 2024 utils optional longnow_0.9~hirsute.orig.tar.xz
+ ce4cdc35b2c17ba49da426c746347059 2056 utils optional longnow_0.9~hirsute-1.debian.tar.xz
+ fc701321a30529c5eef4c6b7c5901f82 6164 utils optional longnow_0.9~hirsute-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDbS0kZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kVyfWDACVpoovytpOMCa5zynSP2pN
+d16wVOn/dqeNRqVkHbQoNuznw8H2qtzk/1q2ib7VzP9FqHkCzgz+lZRPZn+7iBIo
+ekXUO5PHb5fXmYB4KZML1QHTd+I5k7985uNDaeOQ7Q/7XJc+NC/d0pL7Wk9PD6tH
+1KUXoYDxiIsasFN07e2knO4NHncc68p7IVADN82gu0CzwFyCWGuD+UR0kw9U67ga
+8pSMKuUC23TGP0QVMqe79vDt/dPc5O2tBYGR/LbyQ3XZon9CXgPVF+CYY2pq3GB7
+BxdNWYVmjLmxcQwE8MHFoTInmGpfuRWfG+qaUIQwb3dbCxBYmgA0M2DbiJ1qA5Vc
+5T5nWGWyY+DioaVwvMikk7gWuViPix5gs2ph7Yz3K7XO9iMhalw2y0Q4fGXwUaFr
+X9IGT4lSQxCcrfl3qwRCBm2JgUGVryylBHLrNuViAxwkKOYPyESlLu5RVKff9cPa
+LVbXCzGoSLjf9PoOAY1hufSZR3k1IQPq8fwiAXMHqVE=
+=HYU8
+-----END PGP SIGNATURE-----

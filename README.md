@@ -25,3 +25,10 @@ $ pip install archivenow ## respectively, pip3
 ```
 $ longnow file.md
 ```
+
+For a reasonably sized file, the process will take a long time, so this is more of a "fire and forget, and then come back in a couple of hours" tool. The process can be safely stopped and restarted at any point, and archive links are remembered, but the errors file is created again each time.
+
+## To do
+- Deal elegantly with images. Right now, they are also archived, and have to be removed manually afterwards.
+- Possibly: Throttle requests to the internet archive less. Right now, I'm sending a link roughly every 12 seconds, and then sleeping for a minute every 15 requests. This is probably too much throttling (the theoretical limit is 15 requests per minute), but I think that it does reduce the error rate. 
+- Pull requests are welcome.

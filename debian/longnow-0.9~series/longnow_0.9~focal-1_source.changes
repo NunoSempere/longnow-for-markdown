@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 29 Jun 2021 18:32:55 +0200
+Source: longnow
+Architecture: source
+Version: 0.9~focal-1
+Distribution: focal
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (0.9~focal-1) focal; urgency=medium
+ .
+   * Minor usability improvements
+Checksums-Sha1:
+ 08ec1cf6064335a4242828cdd9ecf94fa8a041d3 1604 longnow_0.9~focal-1.dsc
+ 200c0e401440ee6a0ad112a99bde8a72ef03a7c5 2024 longnow_0.9~focal.orig.tar.xz
+ eea14dc3320524cf4d85428d73e07164a71b3c58 2052 longnow_0.9~focal-1.debian.tar.xz
+ e3bff68dc4f41553f1b41099c7b9f035d0cef3f4 6156 longnow_0.9~focal-1_source.buildinfo
+Checksums-Sha256:
+ 8cbac37a7c9304a79be035bbcff82e0085bd0ad04b61726c582423e6be9197a0 1604 longnow_0.9~focal-1.dsc
+ 3ae730632ae5eedf81c7d9af5354373bed2fb76cc28bd7d500fd846ea5199fd6 2024 longnow_0.9~focal.orig.tar.xz
+ dd7a320329cb357eb24ca29c1fed3572847dc952772edd9c724b94a85e8694cb 2052 longnow_0.9~focal-1.debian.tar.xz
+ ba898312c50ae7aa918b4e9b7528b391d79aa80f7fd8f9706dc4333e15d44ec8 6156 longnow_0.9~focal-1_source.buildinfo
+Files:
+ b86b492acfdd55fd2c9ec08f576cc39d 1604 utils optional longnow_0.9~focal-1.dsc
+ c8ef19ec02f5f27b3d975b61400f54a8 2024 utils optional longnow_0.9~focal.orig.tar.xz
+ 92c5fd919322fedafe6bdd58ae16f51a 2052 utils optional longnow_0.9~focal-1.debian.tar.xz
+ fc2b323bc729035e169afc0a6996a6cd 6156 utils optional longnow_0.9~focal-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDbSz4ZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV3rcC/9agXXVgXimqFmJLeEIiMz2
+l8zo2gZjjwAQvaObjVEKBHsCLLhcZm/TOauVn9gikMwKl4kANcrfReZ+nCepVu0B
+u8MduvmyQt/ZTUi6CRQJ2erEQ8KkaHCUryLS2XqMcWEF2/gUnyry+xgJqIh1swvL
+xQ6pUhhzAHgp29RvH80gLM/13YWeb7+YLBfPaZ+GcC7ii24+SItYk9h/w7Yfb2ZL
+m6Mpbag4k8CRLb3JIkRHduwEB7ZGYlAl4grtl5KDGp/0Wst2wZCGcdBIjZ4hKpAp
+fmnmenZxAE5Rz9QbMWXcvab18ARPd3EeuygVgP1NVBSF7UV6cft9eRvbQFAACfQc
+E/dvh7vrbJ3wcLy3P1T0Gk1Wb0LUkoKfVqPwW5ZKaGmJNi/fYZFLOAMaWuKyxLD0
+cI0lmoK3nSayQBDGv39Arp8bTruCxQAiY5WxtYQWklVeK3LAOKmW4mRfp8l+qjhX
+5p0g969sWzGdwqFlCKn0XzekPEnnNi9E7LN5ghaHzXg=
+=HFm3
+-----END PGP SIGNATURE-----
