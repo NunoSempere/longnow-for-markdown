@@ -10,10 +10,10 @@ seriesFolder="$(pwd)/$1~series"
 seriesNames=("focal" "groovy" "hirsute" "impish")
 gitFolder="/home/nuno/Documents/core/software/fresh/bash/sid/longnowformd_package/longnow-git/"
 
-rm -r "$stemFolder"
+rm -rf "$stemFolder"
 mkdir "$stemFolder"
 
-rm -r "$seriesFolder"
+rm -rf "$seriesFolder"
 mkdir "$seriesFolder"
 
 cp  "$gitFolder/longnow" "$stemFolder/longnow"
@@ -40,7 +40,7 @@ for seriesName in "${seriesNames[@]}"; do
   sed -i "s|unstable|$seriesName|g" changelog
 
   # Meaningful update message
-  sed -i 's|Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>|Small improvement; numeric comparison and deleting the old links file to allow for manual user intervention|g' changelog
+  sed -i 's|Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>|Minor tweak.|g' changelog
   
   # Edit the control file; change "unknown" section to "utils" (or some other section)
   sed -i 's|Section: unknown|Section: utils|g' control
@@ -57,11 +57,15 @@ for seriesName in "${seriesNames[@]}"; do
   wait
   cd ..
   
-  dput ppa:nunosempere/longnowformd longnow_0.8~$seriesName-1_source.changes
+  dput ppa:nunosempere/longnowformd longnow_1.1~$seriesName-1_source.changes
   wait
 done
 
-## How to use: ./createSeries.sh longnow-0.8
+## How to use: ./createSeries.sh longnow-1.1
 
 cp -r "$stemFolder" "$gitFolder/debian/$stemFolderName"
 cp -r "$seriesFolder" "$gitFolder/debian/$stemFolderName~series"
+cp "/home/nuno/Documents/core/software/fresh/bash/sid/longnowformd_package/createSeries.sh" "$gitFolder/debian/createSeries.sh"
+
+sudo cp "$gitFolder/longnow" "/usr/bin/longnow"
+sudo chmod 555 "/usr/bin/longnow"

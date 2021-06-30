@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 30 Jun 2021 22:52:52 +0200
+Source: longnow
+Architecture: source
+Version: 1.1~hirsute-1
+Distribution: hirsute
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (1.1~hirsute-1) hirsute; urgency=medium
+ .
+   * Minor tweak.
+Checksums-Sha1:
+ ebda5b78583e88843995d95527ef10f44a864c06 1618 longnow_1.1~hirsute-1.dsc
+ 4bc464129d3adf4831535d88f8c3e32a81a0448c 1996 longnow_1.1~hirsute.orig.tar.xz
+ 661c94710f66f7b99c247246b084ebad805376be 2040 longnow_1.1~hirsute-1.debian.tar.xz
+ 21785e2d175c17417315b04b7f515bc4ae5b1977 6164 longnow_1.1~hirsute-1_source.buildinfo
+Checksums-Sha256:
+ 9d6acc2a52da820e9e90c1aa87e2418ae9b58822dbe640c2cc2a1609401e2a79 1618 longnow_1.1~hirsute-1.dsc
+ 07e6631a8ba278899828861869f15ab1a25ea81e0a0af0075e424ca511fd630b 1996 longnow_1.1~hirsute.orig.tar.xz
+ 791a09f1bcb0088fe8bed378d9800caef0c21a06f240519c9e451ab6560bd8b6 2040 longnow_1.1~hirsute-1.debian.tar.xz
+ 9b103dc76643bc009c26d851b9bf909c78e8ae15c8df380328c44712d70f488e 6164 longnow_1.1~hirsute-1_source.buildinfo
+Files:
+ d234fedc987267a65aff825dbb149e70 1618 utils optional longnow_1.1~hirsute-1.dsc
+ 6706b6b3f891ca9fc1d65638781defd2 1996 utils optional longnow_1.1~hirsute.orig.tar.xz
+ 1d04130bde1e834294a5af381e7c157e 2040 utils optional longnow_1.1~hirsute-1.debian.tar.xz
+ b2d8befa2e65f3b612a48fe6b4616865 6164 utils optional longnow_1.1~hirsute-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDc2acZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV0KNC/4yOHPCYkGeJ4pL0pS8ewYb
+71Vy1EJXA1AOKhVo1SuiGupotG8LGlTPRC6KRPv69u5McCtBr7nOJK5uNS5dnjIS
+jX5kIu0YrsYBxofYF3oF7Fit9B8LR/rXHPZv+rkbRD/z/tBYnaIXlrJAs+tneGwL
+y36gg2L3Hmfe9gtMHkjQ245r1aI5C7DNu6WDXvlwriOf9gX3jXQmqng9oOBRLosB
+ZLNHnthhM0iSv3UJOJERUaMFQ5pwOxI3BUp/b9K7DPjzsQyHbxJGqftZVF2Gb9sS
++UUk1VUNLjKr270QQjIB7dTyxCWEXCmvT69/MXqwuxKFQ8bysNwz0b+N+GCOgqhu
+0o6ORLjLP2lwtjlnPh2ZTY3t5lyCP092KJYX+M7Pb4ciDmRQALRcLgwmOkQ1S+je
+W60EEiCK+kIGf4CVByp2ltTf9R4jIn5z9jhkvMvrUoiWQV9YjN+ovndfxQa/7lKR
++jTs3Z+sZeJGYeIm7/oPoEaxO5KplJwVPLvDc8GHRDQ=
+=YTgH
+-----END PGP SIGNATURE-----

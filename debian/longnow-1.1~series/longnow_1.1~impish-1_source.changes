@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 30 Jun 2021 22:52:57 +0200
+Source: longnow
+Architecture: source
+Version: 1.1~impish-1
+Distribution: impish
+Urgency: medium
+Maintainer: Nuno Sempere <nuno.semperelh@gmail.com>
+Changed-By: Nuno Sempere <nuno.semperelh@gmail.com>
+Changes:
+ longnow (1.1~impish-1) impish; urgency=medium
+ .
+   * Minor tweak.
+Checksums-Sha1:
+ 7a977d2ed8ca9dd2c3cc1089d1cf6d4ccd78434c 1611 longnow_1.1~impish-1.dsc
+ e43182663dbf5b3e5d032ef7c9c87c278d5e1e7a 2000 longnow_1.1~impish.orig.tar.xz
+ a3737b4b76a7b6e118e5f6c979e1b30e22d6ee78 2040 longnow_1.1~impish-1.debian.tar.xz
+ 913edaef3450589135faaa62b992f7b3f9a79eb0 6160 longnow_1.1~impish-1_source.buildinfo
+Checksums-Sha256:
+ 0b6b7574a44e5101b75bcd5ae59b6d2c7d20a6a1af514d3553f811c7b1d0ece6 1611 longnow_1.1~impish-1.dsc
+ 8074efa4b3efe3d700411f29bc4512f3ce888a3b91dfac09ef2f9bac73239217 2000 longnow_1.1~impish.orig.tar.xz
+ 2200c983f33d4815f9a2da883ac8205c96613f030802cb3967613b6530f87c46 2040 longnow_1.1~impish-1.debian.tar.xz
+ 0968c22ddf46fd6710a93eb07214ce905af716307609d521de1fd1cd617457a5 6160 longnow_1.1~impish-1_source.buildinfo
+Files:
+ 34a61795d58976ff5c3faa576c7803dc 1611 utils optional longnow_1.1~impish-1.dsc
+ 4c6469a29d2bdfd6b91a94711cbb9941 2000 utils optional longnow_1.1~impish.orig.tar.xz
+ 831fb53f646f59a0286ed25315fc62c2 2040 utils optional longnow_1.1~impish-1.debian.tar.xz
+ 0ed9641a63ab48d4191a4ee3b258ffe3 6160 utils optional longnow_1.1~impish-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHNBAEBCgA3FiEEJgMJ0m3ydsnStpbJvUQaV89PZFcFAmDc2a4ZHG51bm8uc2Vt
+cGVyZWxoQGdtYWlsLmNvbQAKCRC9RBpXz09kV1nHC/0Te0iDKnC3ST31FamFp2KU
+IkxaDh0sFi7Z/1GS4AuWXaKn20wnjw0DvSRxzjLV5KwuEet8yHaxhA0Bw1sdzGaP
+kbmsK62DekmttvPikyybl8af4gO0m17+4GCXsFrYqp43+iUZ1Q6jVERK0Plab4el
+IyRCeLU7Z2tpLIF0Z+T5Rs7yXXklFFCurkxVML3ZoxVz6L5oZztJ4jLOAPr8Lvi7
+xUHmNsaOUez6tgZh50ClMRE3CkPiUKHz8Pd3Evt9LajmDps72Hy3KkFcf7z+LuW+
+bQJt4F6oC8jnr3CXl6+cCsV+6IoOgSOrGM92nSsPqZD0+BTUDOt5xovZgoxgKvgC
+TKEiJyT5LI2bnZPrg9rFhRDAsAnyRGSyZVTFnM1Mfc/Wa4N3aVyERhlLy0GTcrBa
+dKY+MVAZMwQqoBe6kmU/qB+B81swqRg3yrI6weXc5EQkZnrfrqzQw6t7HtmD1D4T
+TycLUilR0Zj6g0JFPsetqBWrcF6Ou+uWEjwU8PEfOB0=
+=kR7T
+-----END PGP SIGNATURE-----
