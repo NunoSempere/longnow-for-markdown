@@ -41,10 +41,10 @@ function pandocodt(){
   ## tr -s " ": Replaces multiple spaces
 }
 
-## Use: pandocodt FileNameWithoutExtension
+## Use: pandocodt YourFileNameWithoutExtension
 ```
 
-Then, convert the file back to html with 
+Then run this tool (`longnow YourFileName.md`). Afterwards, convert the output file (`YourFileName.md.longnow`) back to html with 
 
 ```
 function pandocmd(){
@@ -57,6 +57,6 @@ function pandocmd(){
 ## Use: pandocmd FileNameWithoutExtension
 ```
 
-(this requires changing the name of the output file from `Source.md.longnow` to `Source.longnow.md` before running `$ pandocmd Source.longnow`)
+(this requires changing the name of the output file from `YourFileName.md.longnow` to `YourFileName.longnow.md` before running `$ pandocmd YourFileName.longnow`)
 
 Then copy and paste the html into a Google doc and fix fomatting mistakes.
