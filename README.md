@@ -2,9 +2,9 @@ This package takes a markdown file, and creates a new markdown file in which eac
 
 ## How to install
 - Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnowformd.sh) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions, or
-- copy its content (except the last line) into your .bashrc file, or
+- copy its content (except the last line) into your .bashrc file.
 
-This utility requires [archivenow](https://github.com/oduwsdl/archivenow) as a dependency, which itself requires a python installation. It can be installed with
+In addition, this utility requires [archivenow](https://github.com/oduwsdl/archivenow) as a dependency, which itself requires a python installation. It can be installed with
 
 ```
 $ pip install archivenow ## respectively, pip3
