@@ -1,7 +1,7 @@
 This package takes a markdown file, and creates a new markdown file in which each link is accompanied by an archive.org link, in the format [...](original link) ([a](archive.org link)).
 
 ## How to install
-- Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnowformd.sh) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions, or
+- Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnow) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions, or
 - copy its content (except the last line) into your .bashrc file.
 
 In addition, this utility requires [archivenow](https://github.com/oduwsdl/archivenow) as a dependency, which itself requires a python installation. archivenow can be installed with
