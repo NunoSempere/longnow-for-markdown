@@ -1,0 +1,4 @@
+If this file contains errors, you can deal with them as follows:
+- Do another pass with $ longnow yourfile.md. If you don't delete yourfile.md.links.archived, past archive links are remembered, and only the links which are not there are sent again
+- Input the offending links manually to https://archive.org/, add the results to the yourfile.md.links.archived file manually, and then do another pass with $ longnow yourfile.md
+
