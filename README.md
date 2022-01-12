@@ -1,7 +1,7 @@
 This utility takes a markdown file, and creates a new markdown file in which each link is accompanied by an archive.org link, in the format [...](original link) ([a](archive.org link)).
 
 ## How to install
-Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnow.sh) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions (with `chmod 755 longnow.sh`)
+Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnow) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions (with `chmod 755 longnow`)
 
 ```
 curl https://raw.githubusercontent.com/NunoSempere/longNowForMd/master/longnow > longnow
@@ -55,7 +55,7 @@ function odtToMd(){
 ## Use: odtToMd file.odt
 ```
 
-Then run this tool (`longnow.sh file.md`). Afterwards, convert the output file (`file.longnow.md`) back to html with 
+Then run this tool (`longnow file.md`). Afterwards, convert the output file (`file.longnow.md`) back to html with 
 
 ```
 function mdToHTML(){
