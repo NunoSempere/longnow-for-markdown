@@ -1,5 +1,10 @@
 This utility takes a markdown file, and creates a new markdown file in which each link is accompanied by an archive.org link, in the format [...](original link) ([a](archive.org link)).
 
+I use it to archive links in [this forecasting newsletter](https://forecasting.substack.com), which contains the following footer:
+
+> Note to the future: All links are added automatically to the Internet Archive, using this [tool](https://github.com/NunoSempere/longNowForMd) ([a](https://web.archive.org/web/20220109144543/https://github.com/NunoSempere/longNowForMd)). "(a)" for archived links was inspired by [Milan Griffes](https://www.flightfromperfection.com/) ([a](https://web.archive.org/web/20220109144604/https://www.flightfromperfection.com/)), [Andrew Zuckerman](https://www.andzuck.com/) ([a](https://web.archive.org/web/20211202120912/https://www.andzuck.com/)), and [Alexey Guzey](https://guzey.com/) ([a](https://web.archive.org/web/20220109144733/https://guzey.com/)).
+
+
 ## How to install
 Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnow) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions (with `chmod 755 longnow`)
 
