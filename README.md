@@ -4,7 +4,6 @@ I use it to archive links in [this forecasting newsletter](https://forecasting.s
 
 > Note to the future: All links are added automatically to the Internet Archive, using this [tool](https://github.com/NunoSempere/longNowForMd) ([a](https://web.archive.org/web/20220109144543/https://github.com/NunoSempere/longNowForMd)). "(a)" for archived links was inspired by [Milan Griffes](https://www.flightfromperfection.com/) ([a](https://web.archive.org/web/20220109144604/https://www.flightfromperfection.com/)), [Andrew Zuckerman](https://www.andzuck.com/) ([a](https://web.archive.org/web/20211202120912/https://www.andzuck.com/)), and [Alexey Guzey](https://guzey.com/) ([a](https://web.archive.org/web/20220109144733/https://guzey.com/)).
 
-
 ## How to install
 Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnow) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions (with `chmod 755 longnow`)
 
@@ -20,6 +19,16 @@ In addition, this utility requires [archivenow](https://github.com/oduwsdl/archi
 ```
 pip install archivenow ## respectively, pip3
 ```
+
+It also requires [jq](https://stedolan.github.io/jq/download/), which can be installed as:
+
+```
+sudo apt install jq
+```
+
+if on Debian, or using your distribution's package manager otherwise.
+
+As of the newest iteration of this program, if archive.org already has a snapshot of the page, that snapshot is taken instead. This results in massive time savings, but could imply that a less up to date copy is used. If this behavior is not desired, it can be easily excised manually, by removing the lines around `if [ "$urlAlreadyInArchiveOnline" == "" ]; then`.
 
 ## How to use
 

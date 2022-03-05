@@ -13,7 +13,7 @@ workdir="longnow-$root"
 ## Move to work dir
 function moveToWorkDir(){
   mkdir -p "$workdir"
-	cp "$input" "$workdir/$input"
+  cp "$input" "$workdir/$input"
   cd "$workdir"
 }
 
@@ -44,7 +44,7 @@ function pushToArchive(){
   numLinesLinkFile=$(wc -l "$links" | awk '{ print $1 }')
   totalTimeInMinutes=$(echo "scale=0; ($numLinesLinkFile*7.5 + 60*$numLinesLinkFile/15)/60" | bc)
   echo "Expected to take ~$totalTimeInMinutes mins."
-	echo ""
+  echo ""
 
   ## rm -f "$archivedLinks"
   rm -f "$errors"
@@ -67,27 +67,39 @@ function pushToArchive(){
       sleep 1m
     fi
     echo "Url: $line"
-    urlAlreadyContained=$( ( grep "$line$" "$archivedLinks"; grep "$line/$" "$archivedLinks" )  | tail -1 )
-    if [ "$urlAlreadyContained" == "" ]; then
-      archiveURL=$(archivenow --ia $line)
-      if [[ "$archiveURL" == "Error"* ]]; then
-        echo "$line" >> "$errors"
-        echo "$archiveURL" >> "$errors"
-        echo "" >> "$errors"
-        echo "There was an error. See $errors for how to deal with it."
+    urlAlreadyContainedInLocalArchivedLinks=$( ( grep "$line$" "$archivedLinks"; grep "$line/$" "$archivedLinks" )  | tail -1 )
+
+    if [ "$urlAlreadyContainedInLocalArchivedLinks" == "" ]; then
+      urlAlreadyInArchiveOnline="$(curl --silent http://archive.org/wayback/available?url=$line |  jq '.archived_snapshots.closest.url' | sed 's/"//g' | sed 's/null//g' )"
+      if [ "$urlAlreadyInArchiveOnline" == "" ]; then
+        echo "Sending to archive..."
+        archiveURL=$(archivenow --ia $line)
+        if [[ "$archiveURL" == "Error"* ]]; then
+          echo "$line" >> "$errors"
+          echo "$archiveURL" >> "$errors"
+          echo "" >> "$errors"
+          echo "There was an error. See $errors for how to deal with it."
+					echo ""
+        else
+            echo "$archiveURL" >> "$archivedLinks"
+        fi
+        counter=$((counter+1))
+        numSecondsSleep=$((5+ ($RANDOM%15)))
       else
-          echo "$archiveURL" >> "$archivedLinks"
+        echo "Already in archive.org: $urlAlreadyInArchiveOnline"
+        echo "$urlAlreadyInArchiveOnline" >> "$archivedLinks"
+				echo ""
+        numSecondsSleep=0
       fi
-      counter=$((counter+1))
-      numSecondsSleep=$((5+ ($RANDOM%15)))
-    else
-      archiveURL="$urlAlreadyContained"
+    elif [ ! -z "$urlAlreadyContainedInLocalArchivedLinks" ]; then
+      echo "Already in local archive: $urlAlreadyContainedInLocalArchivedLinks"
+      archiveURL="$urlAlreadyContainedInLocalArchivedLinks"
       numSecondsSleep=0
+      # echo $archiveURL
+      echo "Sleeping for $numSecondsSleep seconds..."
+      sleep $numSecondsSleep
+      echo ""
     fi
-    echo $archiveURL
-    echo "Sleeping for $numSecondsSleep seconds..."
-    sleep $numSecondsSleep
-    echo ""
   done < "$links"
   
   echo "Done pushing links to archive.org"
@@ -121,13 +133,18 @@ function addArchiveLinksToFile(){
 }
 
 ## Explain installation
-function explainInstallation(){
+function explainArchiveNowInstallation(){
   echo "Required archivenow utility not found in path."
   echo "Install with \$ pip install archivenow"
   echo "(resp. \$ pip3 install archivenow)"
   echo "Or follow instructions on https://github.com/oduwsdl/archivenow"
 }
 
+function explainJqInstallation(){
+  echo "Required jq utility not found in path."
+  echo "Install with your package manager, e.g., \$ sudo apt install jq"
+  echo "Or follow instructions on https://stedolan.github.io/jq/download/"
+}
 ## Report errors
 function reportErrors(){
   numLinesErrorFile=$(wc -l "$errors" | awk '{ print $1 }')
@@ -145,16 +162,18 @@ function cleanup(){
 ## Main
 function main(){
   doesArchiveNowExist="$(whereis "archivenow")"
-  if [ "$doesArchiveNowExist" == "archivenow:" ]
-	then
-    explainInstallation
+  doesJqExist="$(whereis "jq")"
+  if [ "$doesArchiveNowExist" == "archivenow:" ]; then
+    explainArchiveNowInstallation
+	elif [ "$doesJqExist" == "jq:" ]; then
+		explainJqInstallation
   else
-		moveToWorkDir
-		extractMarkdownLinks
-		pushToArchive
-		addArchiveLinksToFile
-		reportErrors
-		cleanup
+    moveToWorkDir
+    extractMarkdownLinks
+    pushToArchive
+    addArchiveLinksToFile
+    reportErrors
+    cleanup
   fi 
 }
 main
