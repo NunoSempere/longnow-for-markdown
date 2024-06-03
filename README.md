@@ -17,7 +17,7 @@ mv longnow /bin/longnow
 In addition, this utility requires [archivenow](https://github.com/oduwsdl/archivenow) as a dependency, which itself requires a python installation. archivenow can be installed with
 
 ```
-pip install archivenow ## respectively, pip3
+pip install archivenow ## respectively, pip3, pipx, etc. depending on the system. I use pipx
 ```
 
 It also requires [jq](https://stedolan.github.io/jq/download/), which can be installed as:
