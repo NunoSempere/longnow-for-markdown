@@ -5,10 +5,10 @@ I use it to archive links in [this forecasting newsletter](https://forecasting.s
 > Note to the future: All links are added automatically to the Internet Archive, using this [tool](https://github.com/NunoSempere/longNowForMd) ([a](https://web.archive.org/web/20220109144543/https://github.com/NunoSempere/longNowForMd)). "(a)" for archived links was inspired by [Milan Griffes](https://www.flightfromperfection.com/) ([a](https://web.archive.org/web/20220109144604/https://www.flightfromperfection.com/)), [Andrew Zuckerman](https://www.andzuck.com/) ([a](https://web.archive.org/web/20211202120912/https://www.andzuck.com/)), and [Alexey Guzey](https://guzey.com/) ([a](https://web.archive.org/web/20220109144733/https://guzey.com/)).
 
 ## How to install
-Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnow) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions (with `chmod 755 longnow`)
+Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnow.sh) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions (with `chmod 755 longnow`)
 
 ```
-curl https://raw.githubusercontent.com/NunoSempere/longNowForMd/master/longnow > longnow
+curl https://raw.githubusercontent.com/NunoSempere/longNowForMd/master/longnow.sh > longnow
 cat longnow ## probably a good idea to at least see what's there before giving it execute permissions
 sudo chmod 755 longnow
 mv longnow /bin/longnow
