@@ -1,10 +1,44 @@
-This utility takes a markdown file, and creates a new markdown file in which each link is accompanied by an archive.org link, in the format [...](original link) ([a](archive.org link)).
+## About
+
+This utility takes a markdown file, and creates a new markdown file in which each link is accompanied by an archive.org link, in the format `[...](original link) ([a](archive.org link))`.
 
 I use it to archive links in [this forecasting newsletter](https://forecasting.substack.com), which contains the following footer:
 
 > Note to the future: All links are added automatically to the Internet Archive, using this [tool](https://github.com/NunoSempere/longNowForMd) ([a](https://web.archive.org/web/20220109144543/https://github.com/NunoSempere/longNowForMd)). "(a)" for archived links was inspired by [Milan Griffes](https://www.flightfromperfection.com/) ([a](https://web.archive.org/web/20220109144604/https://www.flightfromperfection.com/)), [Andrew Zuckerman](https://www.andzuck.com/) ([a](https://web.archive.org/web/20211202120912/https://www.andzuck.com/)), and [Alexey Guzey](https://guzey.com/) ([a](https://web.archive.org/web/20220109144733/https://guzey.com/)).
 
-## How to install
+## Requirements
+
+This utility requires [archivenow](https://github.com/oduwsdl/archivenow) as a dependency, which itself requires a python installation. archivenow can be installed with
+
+```
+pip install archivenow ## respectively, pip3, pipx, etc. depending on the system. I use pipx
+```
+
+You can instead install it with a virtual environment, which is what works on Ubuntu 24.04:
+
+```
+cd ~/.local
+git clone git@github.com:oduwsdl/archivenow.git
+cd archivenow
+python3 -m venv ./venv
+source ./venv/bin/activate
+pip install -r requirements.txt
+pip install setuptools
+pip install ./
+
+ln -s $(realpath ./venv/bin/archivenow) ~/.local/bin/archivenow
+```
+
+longnow also requires [jq](https://stedolan.github.io/jq/download/), which can be installed as:
+
+```
+sudo apt install jq
+```
+
+if on Debian, or using your distribution's package manager otherwise.
+
+## Installation
+
 Add [this file](https://github.com/NunoSempere/longNowForMd/blob/master/longnow.sh) to your path, for instance by moving it to the `/usr/bin` folder and giving it execute permissions (with `chmod 755 longnow`)
 
 ```
@@ -14,31 +48,16 @@ sudo chmod 755 longnow
 mv longnow /bin/longnow
 ```
 
-In addition, this utility requires [archivenow](https://github.com/oduwsdl/archivenow) as a dependency, which itself requires a python installation. archivenow can be installed with
-
-```
-pip install archivenow ## respectively, pip3, pipx, etc. depending on the system. I use pipx
-```
-
-It also requires [jq](https://stedolan.github.io/jq/download/), which can be installed as:
-
-```
-sudo apt install jq
-```
-
-if on Debian, or using your distribution's package manager otherwise.
-
-As of the newest iteration of this program, if archive.org already has a snapshot of the page, that snapshot is taken instead. This results in massive time savings, but could imply that a less up to date copy is used. If this behavior is not desired, it can be easily excised manually, by removing the lines around `if [ "$urlAlreadyInArchiveOnline" == "" ]; then`.
-
-## How to use
+## Usage 
 
 ```
 $ longnow file.md
 ```
 
-For a reasonably sized file, the process will take a long time, so this is more of a "fire and forget, and then come back in a couple of hours" tool. The process can be safely stopped and restarted at any point, and archive links are remembered, but the errors file is created again each time.
+Initially, for a reasonably sized file, the process took a long time, so this was more of a "fire and forget, and then come back in a couple of hours" tool. The process can be safely stopped and restarted at any point, and archive links are remembered, but the errors file is created again each time. However, as of a recent iteration of this program, if archive.org already has a snapshot of the page, that snapshot is taken instead. This results in massive time savings, but could imply that a less up to date copy is used. If this behavior is not desired, it can be easily excised manually, by removing the lines around `if [ "$urlAlreadyInArchiveOnline" == "" ]; then`.
 
 ## To do
+
 - Deal elegantly with images. Right now, they are also archived, and have to be removed manually afterwards.
 - Possibly: Throttle requests to the internet archive less. Right now, I'm sending a link roughly every 12 seconds, and then sleeping for a minute every 15 requests. This is probably too much throttling (the theoretical limit is 15 requests per minute), but I think that it does reduce the error rate. 
 - Do the same thing but for html files, or other formats
