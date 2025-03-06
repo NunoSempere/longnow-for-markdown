@@ -79,7 +79,7 @@ function pushToArchive(){
       urlAlreadyInArchiveOnline="$(curl --silent http://archive.org/wayback/available?url=$oss_url |  jq '.archived_snapshots.closest.url' | sed 's/"//g' | sed 's/null//g' )"
       if [ "$urlAlreadyInArchiveOnline" == "" ]; then
         echo "Sending to archive..."
-        archiveURL=$(archivenow --ia $line)
+        archiveURL=$(archivenow --ia $oss_url)
         if [[ "$archiveURL" == "Error"* ]]; then
           echo "$line" >> "$errors"
           echo "$archiveURL" >> "$errors"
