@@ -31,6 +31,11 @@ function extractMarkdownLinks(){ # Use: Takes a markdown file file.md, extracts 
   echo "Done extracting links"
 }
 
+function getOssFrontend(){
+  nitterUrl=$(echo "$1" | sed -E 's/(https?:\/\/)(www\.)?(twitter\.com|x\.com)/\1nitter.net/g')
+  echo $nitterUrl
+}
+
 ## Push to Archive
 function pushToArchive(){
 # Use: Takes a txt file with one link on each line and pushes all the links to the internet archive. Saves those links to a textfile
@@ -67,10 +72,11 @@ function pushToArchive(){
       sleep 1m
     fi
     echo "Url: $line"
-    urlAlreadyContainedInLocalArchivedLinks=$( ( grep "$line$" "$archivedLinks"; grep "$line/$" "$archivedLinks" )  | tail -1 )
+    oss_url="$(getOssFrontend $line)"
+    urlAlreadyContainedInLocalArchivedLinks=$( ( grep "$oss_url$" "$archivedLinks"; grep "$oss_url/$" "$archivedLinks" )  | tail -1 )
 
     if [ "$urlAlreadyContainedInLocalArchivedLinks" == "" ]; then
-      urlAlreadyInArchiveOnline="$(curl --silent http://archive.org/wayback/available?url=$line |  jq '.archived_snapshots.closest.url' | sed 's/"//g' | sed 's/null//g' )"
+      urlAlreadyInArchiveOnline="$(curl --silent http://archive.org/wayback/available?url=$oss_url |  jq '.archived_snapshots.closest.url' | sed 's/"//g' | sed 's/null//g' )"
       if [ "$urlAlreadyInArchiveOnline" == "" ]; then
         echo "Sending to archive..."
         archiveURL=$(archivenow --ia $line)
@@ -117,7 +123,8 @@ function addArchiveLinksToFile(){
   while IFS= read -r url
   do
     wait
-    archivedUrl=$( ( grep "$url$" "$archivedLinks"; grep "$url/$" "$archivedLinks") | tail -1)
+    oss_url="$(getOssFrontend $url)"
+    archivedUrl=$( ( grep "$oss_url$" "$archivedLinks"; grep "$oss_url/$" "$archivedLinks") | tail -1)
     if [ "$archivedUrl" != ""  ]; then
       ## echo "Url: $url"
       ## echo "ArchivedUrl: $archivedUrl"
